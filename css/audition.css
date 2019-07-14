@@ -1,0 +1,205 @@
+.bg-gray{background:#f7f2f3}.bg-white{background:#fff}.bg-banner{margin:0 !important}.audition-item{font-weight:bold}.audition-item .audition-bg{float:right;width:50%}.audition-item .icon-audition{max-width:120px;margin-top:0px}.audition-item .title{font-size:12px;font-weight:bold}.audition-item .uncheck{display:inline-block;width:10px;height:10px;border:1px solid #000;margin:0 10px 0 -20px}.audition-item .list-style-none{list-style:none}.audition-item h4{margin-top:20px}.audition-item .audition-process{border-left:1px solid #f00;padding-left:20px;margin-top:25px}.audition-item .audition-process .step-process{margin-bottom:10px;position:relative}.audition-item .audition-process .step-process:before{position:absolute;left:-26px;content:'';width:10px;height:10px;background:#db4f45;border-radius:50%}.audition-item .audition-process .step-process div{color:#db4f45;font-size:22px;font-weight:bold}.audition-item .audition-process .step-process span{font-weight:bold}.audition-item .apply-now{display:inline-block;width:150px;padding:10px;border:1px solid blue;text-align:center;font-weight:bold;color:#db4f45;margin-bottom:50px}.audition-item .apply-now+span{display:inline-block;width:20px;height:20px;background:#db4f45;color:#fff;text-align:center;margin:0 5px 0 10px}.audition-item .apply-now+span+span{color:#db4f45;font-weight:bold}.audition-item .how-to-play .step{min-height:70px}.audition-item .how-to-play .step .number-step{position:relative;left:10px;float:left;font-size:40px;font-weight:bold;margin-right:10px;color:#db4f45}.audition-item .how-to-play .step .number-step:before{content:'STEP';position:absolute;left:-22px;top:20px;transform:rotate(-90deg);color:#db4f45;font-size:12px}.audition-item .how-to-play .step .number-step+div{font-size:13px;padding-left:40px}.audition-item .how-to-play .step .number-step+div span:nth-child(1){position:relative;top:10px}.audition-item .how-to-play .step .number-step+div span:nth-child(1)+span{position:relative;top:10px;display:block;font-weight:normal;font-style:italic}@media screen and (min-width: 768px){.audition-item .audition-bg{width:60%}.audition-item .icon-audition{max-width:200px;margin-top:10px}.audition-item .title{font-size:15px;font-weight:bold}}@media screen and (min-width: 992px){.icon-audition{max-width:250px}.audition-item .title{font-size:14px}}@media screen and (min-width: 1367px){.audition-bg{width:auto}}
+
+
+/***** CUSTOM *****/
+.audition-item .prize-benefit .step, .audition-item .requirement .step, .audition-item .audition-process .step
+{
+    min-height:50px;
+}
+.audition-item .prize-benefit .step .number-step::before, .audition-item .requirement .step .number-step::before, .audition-item .audition-process .step .number-step::before{
+    color: #db4f45;
+    font-size: 10px;
+    left: -22px;
+    position: absolute;
+    top: 20px;
+    transform: rotate(-90deg);
+}
+.audition-item .prize-benefit .step .number-step, .audition-item .requirement .step .number-step,
+.audition-item .audition-process .step .number-step{
+    color: #db4f45;
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+    left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.audition-item .prize-benefit .step .number-step + div, .audition-item .requirement .step .number-step + div,
+.audition-item .audition-process .step .number-step + div {
+    font-size: 13px;
+    padding-left: 40px;
+    padding-top:13px;
+}
+.audition-item .prize-benefit .step .number-step + div span:nth-child(1) + span, .audition-item .requirement .step .number-step + div span:nth-child(1) + span {
+    display: block;
+    font-size: 11px;
+    position: relative;
+}
+
+.audition-item .audition-process .step .number-step + div span:nth-child(1) + span
+{
+    display: block;
+    font-size: 11px;
+    position: absolute;
+    margin-left: 13.5%;
+}
+
+.audition-item .apply-now + span + span {
+    color: #db4f45;
+    font-weight: bold;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 100;
+}
+.audition-item .audition-process .step-process div {
+    color: #db4f45;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.audition-item .how-to-play .step .number-step + div ul{
+    margin-top:20px;
+}
+
+.audition-item .audition-process .step-process {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.audition-item .audition-process .step-process span
+{
+    font-size:13px;
+}
+/*.audition-process .step .number-step
+{
+    font-size:14px !important;;
+}*/
+/*.audition-item .audition-process {
+    border-left: 1px solid #f00;
+    margin-top: 25px;
+}
+
+
+
+.audition-item .audition-process .step .number-step + div
+{
+    margin-top:-10px !important;
+    color:black;
+    margin-left:10px !important;
+    padding-left:0px;
+    padding-top:0px;
+}*/
+
+.audition-item #howto{
+    border: 1px solid blue;
+    color: #db4f45;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px !important;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+.audition-item .title {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .audition-item #howto{
+        display: block;
+    }
+    .audition-item .apply-now+span
+    {
+        margin:0px 10px 15px 0px;
+    }
+    .audition-item .apply-now + span + span
+    {
+        margin:0px;
+    }
+    .audition-item .title
+    {
+        margin-top:70px;
+    }
+    .audition-item .icon-audition
+    {
+        max-width: 150px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .audition-item #howto{
+        display: block;
+    }
+    .audition-item .apply-now+span
+    {
+        margin:0px 10px 15px 0px;
+    }
+    .audition-item .apply-now + span + span
+    {
+        margin:0px;
+    }
+    .audition-item .title
+    {
+        margin-top:70px;
+    }
+    .audition-item .icon-audition
+    {
+        max-width: 150px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    .audition-item #howto{
+        display: block;
+    }
+    .audition-item .apply-now+span
+    {
+        margin:0px 10px 15px 0px;
+    }
+    .audition-item .apply-now + span + span
+    {
+        margin:0px;
+    }
+    .audition-item .title
+    {
+        margin-top:70px;
+    }
+    .audition-item .icon-audition
+    {
+        max-width: 150px;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .audition-item #howto{
+        display: block;
+    }  
+    .audition-item .apply-now+span
+    {
+        margin:0px 10px 15px 0px;
+    }
+    .audition-item .apply-now + span + span
+    {
+        margin:0px;
+    }
+    .audition-item .title
+    {
+        margin-top:70px;
+    }
+    .audition-item .icon-audition
+    {
+        max-width: 150px;
+    }
+}

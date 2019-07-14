@@ -1,0 +1,156 @@
+$colorRed: #db4f45;
+.bg-gray {
+	background: #f7f2f3;
+}
+
+.bg-white {
+	background: #fff;
+}
+
+.bg-banner {margin:0 !important;}
+
+.audition-item {
+	font-weight: bold;
+	.audition-bg {
+		float:right;
+		width: 50%;
+	}
+	.icon-audition {
+		max-width:120px;
+		margin-top:0px;
+	}
+	.title {
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.uncheck {
+		display: inline-block;
+		width:10px;
+		height:10px;
+		border:1px solid #000;
+		margin: 0 10px 0 -20px;
+	}
+	.list-style-none {
+		list-style: none;
+	}
+
+	h4 {
+		margin-top:50px;
+	}
+	.audition-process {
+	    border-left: 1px solid #f00;
+	    padding-left: 20px;
+	    margin-top:25px;
+	    .step-process {
+			margin-bottom: 10px;
+	    	position: relative;
+	    	&:before {
+			    position: absolute;
+			    left: -26px;
+			    content: '';
+			    width: 10px;
+			    height: 10px;
+			    background: $colorRed;
+			    border-radius: 50%;
+			};
+			div {
+				color:#db4f45;
+				font-size: 22px;
+				font-weight: bold;
+			}
+			span {
+				font-weight: bold;
+			}
+		}
+	}
+
+	.apply-now {
+	    	display: inline-block;
+	    	width: 150px;
+	    	padding:10px;
+	    	border: 1px solid blue;
+	    	text-align: center;
+	    	font-weight: bold;
+	    	color:$colorRed;
+	    	margin-bottom: 50px;
+	    	& + span {
+	    		display: inline-block;
+	    		width:20px;
+	    		height: 20px;
+	    		background: $colorRed;
+	    		color: #fff;
+	    		text-align: center;
+	    		margin:0 5px 0 10px;
+	    		& + span {
+	    			color:$colorRed;
+	    			font-weight: bold;
+	    		}
+	    	}
+	 }
+
+	 .how-to-play {
+	 	.step {
+	 		min-height: 70px;
+	 		.number-step {
+			    position: relative;
+			    left:10px;
+			    float:left;
+			    font-size: 40px;
+			    font-weight: bold;
+			    margin-right: 10px;
+			    color: $colorRed;
+			    &:before {
+				    content: 'STEP';
+				    position: absolute;
+				    left: -22px;
+				    top: 20px;
+				    transform: rotate(-90deg);
+				    color: $colorRed;
+				    font-size: 12px;
+				}
+				& + div {
+					font-size: 13px;
+					padding-left: 40px;
+					span:nth-child(1) {
+				    position: relative;
+				    top: 10px;
+				    & + span {
+				    	position: relative;
+				    	top:10px;
+				    	display:block;
+				    	font-weight: normal;
+				    	font-style: italic;
+				    }
+					}
+				}
+			}
+	 	}
+	 }
+}
+
+@media screen and (min-width:768px) {
+	.audition-item {
+		.audition-bg {
+			width: 60%;
+		}	
+		.icon-audition {max-width:200px;margin-top:10px}
+		.title {
+			font-size: 15px;
+			font-weight: bold;
+		}
+	}
+}
+
+@media screen and (min-width:992px) {
+	.icon-audition {max-width:250px}
+	.audition-item {
+		.title {font-size: 18px}
+	}
+}
+
+
+@media screen and (min-width:1367px) {
+	.audition-bg {
+		width: auto;
+	}	
+}

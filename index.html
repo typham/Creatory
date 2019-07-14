@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Creatory</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<!-- Basic stylesheet -->
+<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+
+ <!-- Default Theme -->
+<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+<link rel="stylesheet" href="owl-carousel/custom.css">
+
+<style>
+	/* 09/09/2016  */
+ .box-solution img{
+  display: block;
+ /* margin-left: auto;
+  margin-right: auto*/
+ }
+.footer-contact p {position:relative; z-index:6;}
+ .sound-icon {position: absolute;top:100px;right: 20px}
+ .sound-icon div {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50%;
+  font-size: 30px;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 50px;
+ }
+
+#about-us .container {padding-left: 0}
+
+#our-solution .box-solution {
+	height: 150px;
+	margin-bottom: 30px;
+}
+#our-solution .solution-name
+{
+	color: #fff;
+	font-size: 22px;
+}
+#our-solution .box-solution img{
+    min-height: 70px;
+	display: block;
+}
+
+.box-contact-center {
+    position: absolute;
+    top: 36.5%;
+    left: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+#contact .btn-applynow {display: inline-block;width: auto;}
+
+@media screen and (max-width:992px) {
+ 	.box-contact-center {
+	    left: 40%;
+	}
+}
+
+ @media screen and (max-width:768px) {
+ 	 #myTopnav:not(.responsive) li:not(.icon) {
+    	display: none;
+	}
+  	.social-icons, .box-language {display: none;z-index: 222}
+  	.box-language {right: 60px}
+  	.social-icons {right: 122px !important}
+  	.box-contact-center {
+	    left: 50%;
+	    top:154px;
+	}
+ }
+
+ @media screen and (max-width:668px) {
+  	.box-contact-center {
+  		width: 86%;
+  		top:160px;
+	    left: 8%;
+	}
+
+	.box-contact-info {
+    	margin-top: 170px;
+	}
+ }
+
+ @media screen and (max-width:862px) {
+	#contact .bg-contact {width:68% !important;}
+}
+
+ @media screen and (min-width:768px) {
+  #contact .container
+  {
+   padding: 0px !important;
+   background:#f7f1f3;
+  }
+  #our-client .mt50 {
+    margin-top: 160px;
+	}
+ }
+</style>
+</head>
+<body>
+	
+	<div id="banner">
+		<div class="container">
+			<div class="box-language">
+				<i class="fa fa-globe" aria-hidden="true"></i>
+				<div class="language"><span>VI</span></div>
+			</div>
+			<div id="menu">
+				<ul class="topnav" id="myTopnav">
+				  <li><a href="audition.html">Audition</a></li>
+				  <li><a href="#about-us">About Us</a></li>
+				  <li><a href="#our-creator" class="active">Creator</a></li>
+				  <li><a href="#our-solution">Solutions</a></li>
+				  <li><a href="#our-client">Clients</a></li>
+				  <li><a href="#contact">Contact</a></li>
+				  <li class="icon">
+				    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+				  </li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="overlay-video"></div>
+		<video class="bg-banner" src="videos/RECRUITMENT_VIDEO.mp4" width="100%" autoplay muted loop></video>
+		<!-- <img src="images/bg_banner.png" alt="" class="bg-banner"> -->
+		<div class="container">
+			<a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+		</div>
+		
+		<div class="container">
+			<div class="social-icons">
+				<div><a href="https://www.youtube.com/watch?v=ihq7g8ZK77w" target="_blank" title="Youtube channel"><i class="fa fa-youtube" aria-hidden="true"></i></a></div>
+				<div><a href=" https://www.facebook.com/CreatoryVN" target="_blank" title="Facebook fanpage"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+			</div>
+			<!-- <div class="owl-carousel owl-theme">
+				  <div class="item">
+				  	<h2 style="margin-left:200px;color:#fff" class="animated fadeInLeft">VIETNAM'S</h2>
+				  	<h3 style="margin-left:200px;color:#fff" class="animated fadeInRight">FIRST CREATOR MANAGEMENT SOLUTION PROVIDER</h3>
+				  	<a href="#" style="margin-left:200px;padding:5px 20px;border: 1px solid #fff;color:#fff;font-weight:bold;display:inline-block;" class="animated zoomIn">APPLY NOW</a>
+				  </div>
+
+				  <div class="item">
+				  	<h2 style="margin-left:200px;color:#fff">VIETNAM'S</h2>
+				  	<h3 style="margin-left:200px;color:#fff">FIRST CREATOR MANAGEMENT SOLUTION PROVIDER</h3>
+				  	<a href="#" style="margin-left:200px;padding:5px 20px;border: 1px solid #fff;color:#fff;font-weight:bold;display:inline-block;">APPLY NOW</a>
+				  </div>
+				</div>-->
+		</div>
+		<div class="sound-icon">
+			<div style="background-color: black;" class="sound"><a style="cursor:pointer" id="control-video"><i style="color:white;" aria-hidden="true" class="fa fa-volume-off"></i></a></div>
+		</div>
+	</div>
+
+	<div id="about-us">
+		<div class="container">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-2 col-xs-6 text-center box-kpi">
+					<img src="images/about-us/kpi-1.png" alt="" class="icon-kpi">
+					<div class="kpi-number">
+				  		20
+				  	</div>
+				  	<div class="kpi-text">
+				  		MILLION+
+				  	</div>
+				  	<div class="kpi-desc text-center">
+				  		Views <br>on LiveStream
+				  	</div>
+				</div>
+				<div class="col-md-2 col-xs-6 text-center box-kpi">
+					<img src="images/about-us/kpi-2.png" alt="" class="icon-kpi">
+					<div class="kpi-number">
+				  		5
+				  	</div>
+				  	<div class="kpi-text">
+				  		MILLION+
+				  	</div>
+					<div class="kpi-desc text-center">
+				  		Monthly <br>Live views
+				  	</div>
+				</div>
+				<div class="col-md-2 col-xs-6 text-center box-kpi">
+					<img src="images/about-us/kpi-3.png" alt="" class="icon-kpi">
+					<div class="kpi-number">
+				  		23.4
+				  	</div>
+				  	<div class="kpi-text">
+				  		MILLION+
+				  	</div>
+
+					<div class="kpi-desc text-center">
+				  		Views on <br>Youtube
+				  	</div>
+				</div>
+				<div class="col-md-2 col-xs-6 text-center box-kpi">
+					<img src="images/about-us/kpi-4.png" alt="" class="icon-kpi">
+					<div class="kpi-number">
+				  		1.2
+				  	</div>
+				  	<div class="kpi-text">
+				  		MILLION
+				  	</div>
+					<div class="kpi-desc text-center">
+				  		Fans <br>On Facebook
+				  	</div>
+				</div>
+				<div class="col-md-2 col-xs-6 text-center box-kpi">
+					<img src="images/about-us/kpi-5.png" alt="" class="icon-kpi">
+					<div class="kpi-number">
+				  		10K<span class="plus">+</span>
+				  	</div>
+					<div class="kpi-desc text-center">
+				  		Avg. LIVE <br>Comments per session
+				  	</div>
+				</div>
+				<div class="col-md-2 col-xs-6 text-center box-kpi">
+					<img src="images/about-us/kpi-6.png" alt="" class="icon-kpi">
+					<div class="kpi-number">
+				  		10<span class="plus">+</span>
+				  	</div>
+					<div class="kpi-desc text-center">
+				  		Carefully <br>Selected Creators <br>with full support
+				  	</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<img src="images/about-icon.png" alt="">
+			</div>
+			<div class="col-md-6 text-center">
+				<p class="mt50 text-gray section-desc">Chúng tôi hướng dẫn những cá nhân tài năng tự biên tập, duy trì nội dung video và giúp họ trở thành thế hệ thần tượng tiếp theo.</p>
+			</div>
+		</div>
+		<div class="full-width">
+			<div class="w25">
+				<img src="images/games.jpg" alt="" class="img-responsive">
+				<img src="images/about-us/game-icon.png" alt="" class="box-icon wow swing" data-wow-iteration="2">
+				<span class="box-title">Giải trí</span>
+				<div class="white-area"></div>
+			</div>
+			<div class="w25">
+				<img src="images/food.jpg" alt="" class="img-responsive">
+				<img src="images/about-us/cooking-icon.png" alt="" class="box-icon wow swing" data-wow-iteration="2">
+				<span class="box-title">Nấu ăn</span>
+				<div class="white-area"></div>
+			</div>
+			<div class="w25">
+				<img src="images/beauty.jpg" alt="" class="img-responsive">
+				<img src="images/about-us/beauty-icon.png" alt="" class="box-icon wow swing" data-wow-iteration="2">
+				<span class="box-title">Làm đẹp</span>
+				<div class="white-area"></div>
+			</div>
+			<div class="w25">
+				<img src="images/kid.jpg" alt="" class="img-responsive">
+				<img src="images/about-us/kids-icon.png" alt="" class="box-icon wow swing" data-wow-iteration="2">
+				<span class="box-title">Trẻ em</span>
+				<div class="white-area"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="our-creator">
+		<div class="container">
+			<div class="col-md-3">
+				<img src="images/our-creator-icon.png" alt="">
+			</div>
+			<div class="col-md-6 text-center">
+				<p class="mt50 text-gray section-desc">"Creators" là những người tạo ảnh hưởng tốt và yêu thích tương tác với khán giả một cách gần gũi nhất</p>
+			</div>
+			<div class="col-md-12">
+				<div id="owl-demo" class="owl-carousel owl-theme">
+				  <div class="item">
+				  	<img src="images/Misthy.jpg" alt="" class="img-responsive">
+					<p class="name">Misthy</p>
+				  	<a href="https://www.youtube.com/watch?v=ihq7g8ZK77w" target="_blank"><img src="images/huy-dubai.jpg" alt="" class="img-responsive below"></a>
+				  	<div class="col-xs-4 col-xs-offset-2"><a href="https://www.facebook.com/mcmisthy/" target="_blank" class="fa fa-facebook-square"></a></div>
+				  	<div class="col-xs-4"><a href="https://www.youtube.com/channel/MISTHYTV" target="_blank" class="fa fa-youtube-square"></a></div>
+				  </div>
+				  <div class="item">
+				  	<img src="images/Hynam.jpg" alt="" class="img-responsive">
+					<p class="name">Hynam</p>
+				  	<a href="https://youtu.be/-nxsPwOFdt4" target="_blank"><img src="images/hynam-game.jpg" alt="" class="img-responsive below"></a>
+				  	<div class="col-xs-4 col-xs-offset-2"><a href="https://www.facebook.com/mchynam/" target="_blank" class="fa fa-facebook-square"></a></div>
+				  	<div class="col-xs-4"><a href="https://www.youtube.com/channel/HYNAMTV" target="_blank" class="fa fa-youtube-square"></a></div>
+				  </div>
+				  <div class="item">
+				  	<img src="images/Nabee.jpg" alt="" class="img-responsive">
+					<p class="name">Nabee</p>
+				  	<a href="https://www.youtube.com/watch?v=PKRab02ws28" target="_blank"><img src="images/sing.jpg" alt="" class="img-responsive below"></a>
+				  	<div class="col-xs-4 col-xs-offset-2"><a href="https://www.facebook.com/CreatoryVN" target="_blank" class="fa fa-facebook-square"></a></div>
+				  	<div class="col-xs-4"><a href="https://www.youtube.com/channel/UCmgGlAF2KF4bDWolzMvI1Yg" target="_blank" class="fa fa-youtube-square"></a></div>
+				  </div>
+				  <div class="item">
+				  	<img src="images/Tippy.jpg" alt="" class="img-responsive">
+					<p class="name">Tippy</p>
+				  	<a href="https://youtu.be/LqhbHjJU8P0" target="_blank"><img src="images/tippy-story.jpg" alt="" class="img-responsive below"></a>
+				  	<div class="col-xs-4 col-xs-offset-2"><a href="https://www.facebook.com/mctippy/" target="_blank" class="fa fa-facebook-square"></a></div>
+				  	<div class="col-xs-4"><a href="https://www.youtube.com/channel/TIPPYTV" target="_blank" class="fa fa-youtube-square"></a></div>
+				  </div>
+				   <div class="item">
+				  	<img src="images/Woossi.jpg" alt="" class="img-responsive">
+					<p class="name">Woossi</p>
+				  	<a href="https://youtu.be/kmq2DjvWnq8?list=PLVJ7j9P9e-oMfkZ_4pAHMZKjDue30yoSz" target="_blank"><img src="images/thang7.jpg" alt="" class="img-responsive below"></a>
+				  	<div class="col-xs-4 col-xs-offset-2"><a href="https://www.facebook.com/mcwoossi/" target="_blank" class="fa fa-facebook-square"></a></div>
+				  	<div class="col-xs-4"><a href="https://www.youtube.com/channel/WOOSSITV" target="_blank" class="fa fa-youtube-square"></a></div>
+				  </div>
+				</div>
+				<div class="col-md-12 text-center">
+					<a href="audition.html" class="btn-be-our-creator">Be Our Creator</a>	
+				</div>
+			</div>
+		
+		</div>
+	</div>
+
+	<div id="our-solution">
+		<div class="container">
+			<div class="col-md-4 col-sm-12">
+				<img src="images/our-solution-icon.png" alt="">
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="box-solution">
+					<img src="images/our-solutions/solution-1.png" alt="">
+					<h2 class="solution-name">Phân tích dữ liệu</h2>
+					<p class="solution-desc">Chúng tôi giúp bạn cải thiện bằng cách phân tích dữ liệu hàng ngày.</p>
+				</div>
+				<div class="box-solution">
+					<img src="images/our-solutions/solution-3.png" alt="">
+					<h2 class="solution-name">Trợ giúp nội dung</h2>
+					<p class="solution-desc">Chúng tôi biến bạn thành người có ý tưởng dẫn đầu bằng cách trợ giúp bạn với chiến lược nội dung được cập nhật</p>
+				</div>
+				
+				<div class="box-solution">
+					<img src="images/our-solutions/solution-5.png" alt="">
+					<h2 class="solution-name">Tiếp thị/Truyền thông</h2>
+					<p class="solution-desc">Chúng tôi giúp bạn trở nên độc nhất và nổi tiếng trong khoảng thời gian ngắn nhất.</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="box-solution">
+					<img src="images/our-solutions/solution-2.png" alt="">	
+					<h2 class="solution-name">SNS/ Quản lý cộng đồng trực tuyến</h2>
+					<p class="solution-desc">Chúng tôi hỗ trợ bạn kết nối với khán giả bằng cách chuyên nghiệp nhất.</p>
+				</div>
+				
+				<div class="box-solution">
+					<img src="images/our-solutions/solution-4.png" alt="">	
+					<h2 class="solution-name">Phòng thu sang trọng</h2>
+					<p class="solution-desc">Tận hưởng thời gian phát sóng thoải mái nhất mỗi ngày.</p>
+				</div>
+				
+				<div class="box-solution">
+					<img src="images/our-solutions/solution-6.png" alt="">
+					<h2 class="solution-name">Phong cách/Trang điểm</h2>
+					<p class="solution-desc">Trải nghiệm thời trang và phong cách trang điểm Hàn Quốc đã thống trị thị trường giải trí châu Á.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="our-client">
+		<div class="container">
+			<div class="col-sm-3">
+				<img src="images/our-client-icon.png" alt="">
+			</div>
+			<div class="col-sm-6 text-center">
+				<p class="mt50 text-gray section-desc">Khách hàng của chúng tôi yêu thích "Creators", những người giúp cho các nhãn hàng cơ hội kết nối với khán giả một cách gần gũi nhất.</p>
+			</div>
+			<div class="col-sm-8 col-sm-offset-2 box-client">
+				<div class="col-sm-2 col-xs-6"><img src="images/our-clients/vng.png" alt="" class="img-responsive"></div>
+				<div class="col-sm-4 col-xs-6"><img src="images/our-clients/vtc.png" alt="" class="img-responsive"></div>
+				<div class="col-sm-2 col-xs-6"><img src="images/our-clients/garena.png" alt="" class="img-responsive"></div>
+				<div class="col-sm-2 col-xs-6"><img src="images/our-clients/me.png" alt="" class="img-responsive"></div>
+				<div class="col-sm-2 col-xs-6"><img src="images/our-clients/shoppe.png" alt="" class="img-responsive"></div>
+			</div>
+			<div class="col-sm-8 col-sm-offset-2 box-client">
+				<div class="col-sm-2 col-xs-6"><img src="images/our-clients/undefine.png" alt="" class="img-responsive"></div>
+				<div class="col-sm-4 col-xs-6"><img src="images/our-clients/appota.png" alt="" class="img-responsive"></div>
+				<div class="col-sm-2 col-xs-6"><img src="images/our-clients/ved.png" alt="" class="img-responsive"></div>
+				<div class="col-sm-2 col-xs-6"><img src="images/our-clients/asus.png" alt="" class="img-responsive"></div>
+				<div class="col-sm-2 col-xs-6"><img src="images/our-clients/tv.png" alt="" class="img-responsive"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="contact">
+		<div class="container">
+			<div class="col-sm-5 pull-left footer-contact">
+				<img src="images/contact-icon.png" alt="">
+
+				<div class="box-contact-info">
+					<p><i class="material-icons">room</i>   <span>77 Đoàn Như Hải, Quận 4, HCMC</span></p>
+					<p><i class="material-icons">call</i>  <span>(+84) 8 6681 3140</span></p>
+					<p><i class="material-icons">email</i> <span>apply@creatory.vn</span></p>
+				</div>
+			</div>
+		</div>
+		<img src="images/footer.jpg" alt="" class="bg-contact pull-right">
+
+		<div class="box-contact-center">
+			<p>Bạn đang phân vân không biết mình có thích hợp để trở thành "Creators"? Đừng ngần ngại nữa, hãy hành động ngay bây giờ!</p>
+			<a href="audition.html" class="btn-applynow">Ứng tuyển ngay</a>
+		</div>
+	</div>
+
+	<div id="footer">
+		<img src="images/logo.png" alt="" class="logo-footer">
+	</div>
+
+	<div class="box-ads">
+		<div class="ads-item">
+			<a href="audition.html"><img src="images/ads/ads.jpg" alt="" class="img-responsive"></a>
+			<span class="close-ads">x</span>
+		</div>
+	</div>
+
+	<span class="backtotop"><i class="fa fa-chevron-up" aria-hidden="true"></i></span>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<!-- Include js plugin -->
+	<script src="owl-carousel/owl.carousel.js"></script>
+
+	 <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+	<!-- 10/09/2016 -->
+    <script>
+		$(function(){
+			$('.topnav li.icon').click(function(){
+				$('.social-icons, .box-language').toggle();
+			});
+		});
+	</script>
+</body>
+</html>
